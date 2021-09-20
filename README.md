@@ -1,5 +1,5 @@
 
-<p align="center"><a href="https://senses-mirror.io" target="_blank"><img width="500" alt="github-logo" src="https://user-images.githubusercontent.com/3399093/134006487-c7d4d8f7-31c0-486e-ac4e-f6bc74ee4baf.png"></a></p>
+<p align="center"><a href="https://senses-mirror.io" target="_blank"><img width="360" alt="senses-logo-full" src="https://user-images.githubusercontent.com/3399093/134037048-2add52f7-05f8-4c8d-a25c-fa590d97b01c.png"></a></p>
 
 # Senses - Smart Mirror Scripts
 Severals scripts to work with the Senses - Smart Mirror software.
