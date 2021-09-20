@@ -1,5 +1,5 @@
 
-<p align="center"><a href="https://senses-mirror.io" target="_blank"><img width="800" alt="github-logo" src="https://user-images.githubusercontent.com/3399093/134006487-c7d4d8f7-31c0-486e-ac4e-f6bc74ee4baf.png"></a></p>
+<p align="center"><a href="https://senses-mirror.io" target="_blank"><img width="600" alt="github-logo" src="https://user-images.githubusercontent.com/3399093/134006487-c7d4d8f7-31c0-486e-ac4e-f6bc74ee4baf.png"></a></p>
 
 # Senses - Smart Mirror Scripts
 Severals scripts to work with the Senses - Smart Mirror software.
@@ -24,7 +24,7 @@ The following command will build all widgets inside the specified folder.
 
 So you would use it like this inside the 'widgets' folder:
 
-```$ sh scripts/build-widgets.sh widgets```\
+```$ sh scripts/build-widgets.sh widgets```
 
 
 ## Build one widget
