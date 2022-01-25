@@ -10,7 +10,7 @@ Severals scripts to work with the Senses - Smart Mirror software.
 
 For a full installation on Raspberry Pi use the following: 
 
-bash -c  "$(curl -sL https://raw.githubusercontent.com/senses-smart-mirror/senses-scripts/main/lib/raspberry-pi-install.sh)"
+```bash -c  "$(curl -sL https://raw.githubusercontent.com/senses-smart-mirror/senses-scripts/main/lib/raspberry-pi-install.sh)"```
 
 ## How to use
 
