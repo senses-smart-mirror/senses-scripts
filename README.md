@@ -4,7 +4,13 @@
 # Senses - Smart Mirror Scripts
 Severals scripts to work with the Senses - Smart Mirror software.
 
- > Please note that you can also use Senses CLI. You can find it on NPM. [Senses CLI](https://senses-mirror.io)
+ > Please note that you can also use Senses CLI. You can find it on NPM. [Senses CLI](https://senses-smartmirror.com).
+
+## Installation 
+
+For a full installation on Raspberry Pi use the following: 
+
+bash -c  "$(curl -sL https://raw.githubusercontent.com/senses-smart-mirror/senses-scripts/main/lib/raspberry-pi-install.sh)"
 
 ## How to use
 
