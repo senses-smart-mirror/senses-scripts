@@ -13,7 +13,7 @@ log "[Smart Mirror] - Pre install started.."
 bash ./preinstall.sh
 
 FOUND=false
-[ -d smart-mirror ] && FOUND=true || FOUND=false
+[ -d senses-smartmirror ] && FOUND=true || FOUND=false
 
 if $FOUND;
   then
@@ -23,10 +23,10 @@ fi
 
 log "[Smart Mirror] - Downloading the Smart Mirror software."
 printf "\n\n"
-curl -o smart-mirror.zip https://downloadmirror.nl/smart-mirror.zip
+curl -o senses-smartmirror.zip https://downloadmirror.nl/senses-smartmirror.zip
 
 FOUND=false
-[ -f smart-mirror.zip ] && FOUND=true || FOUND=false
+[ -f senses-smartmirror.zip ] && FOUND=true || FOUND=false
 
 if $FOUND;
   then
@@ -38,10 +38,10 @@ fi
 
 
 log "[Smart Mirror] - Unzipping.."
-unzip -q smart-mirror.zip
+unzip -q senses-smartmirror.zip
 
 FOUND=false
-[ -d smart-mirror ] && FOUND=true || FOUND=false
+[ -d senses-smartmirror ] && FOUND=true || FOUND=false
 
 if $FOUND;
   then 
@@ -52,7 +52,7 @@ if $FOUND;
 fi
 
 log "[Smart Mirror] - Installing Mirror Launcher functionality"
-cd $dir/smart-mirror/
+cd $dir/senses-smartmirror/
 if npm install --quiet --no-progress --silent;
   then 
     log "[Smart Mirror] - Mirror Launcher installed!"
@@ -62,7 +62,7 @@ if npm install --quiet --no-progress --silent;
 fi 
 
 log "[Smart Mirror] - Installing Mirror Server functionality"
-cd $dir/smart-mirror/server
+cd $dir/senses-smartmirror/server
 if npm install --quiet --no-progress --silent;
   then
     log "[Smart Mirror] - Mirror Server installed!"
@@ -72,8 +72,8 @@ fi
 
 log "[Smart Mirror] - Cleanup process started..."
 cd $dir
-rm smart-mirror.zip
-rm -rf smart-mirror/app
+rm senses-smartmirror.zip
+rm -rf senses-smartmirror/app
 
 log "[Smart Mirror] - Cleanup process finished."
 
