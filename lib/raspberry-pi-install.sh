@@ -76,7 +76,7 @@ fi
 
 log "[Smart Mirror] - Downloading the Smart Mirror software."
 printf "\n\n"
-curl -o senses-smartmirror.zip https://github.com/nickthesing/smart-mirror/releases/latest/download/senses-smartmirror.zip
+curl https://github.com/senses-smart-mirror/senses-smartmirror/releases/download/v1.0.0/senses-smartmirror.zip?raw=true -O -J -L -o senses-smartmirror.zip
 
 FOUND=false
 [ -f senses-smartmirror.zip ] && FOUND=true || FOUND=false
